@@ -10,7 +10,7 @@ SYSTEM_ARCH := $(shell uname -m | sed -e 's/aarch64.*/arm64/' -e 's/x86_64.*/amd
 # 80-89,or 8000-8020
 
 export ARCH ?= amd64
-export PORT ?= 81
+export PORT ?= 8006
 
 
 
